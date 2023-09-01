@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paulkelvin</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">YourLogo</div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#" data-section="portfolio">Home</a></li>
+          <li><a href="#about" data-section="about">About</a></li>
+          <li><a href="#services" data-section="services">Services</a></li>
+          <li><a href="#portfolio" data-section="portfolio">Portfolio</a></li>
+          <!-- <li>
+            <a href="#testimonials " data-section="testimonials"
+              >Testimonials</a
+            >
+          </li> -->
+          <li><a href="#contact" data-section="contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="hero">
+      <div class="hero-author-container">
+        <div class="author-image-container">
+          <img src="/Assets/Paulkelvin.png" alt="" class="author-picture" />
+        </div>
+      </div>
+      <div class="hero-text-container">
+        <h2 class="author-title">Front-End Engineer</h2>
+        <h1>
+          I
+          <span class="changing-text">create automated Web Solutions</span>
+        </h1>
+        <div class="button-container">
+          <a href="resume.pdf" class="cta-resume"
+            >My Resume
+            <span class="arrow"><i class="fas fa-chevron-down"></i></span
+          ></a>
+          <a href="#contact" class="cta-contact">
+            Hire me<span><i class="fas fa-envelope"></i></span
+          ></a>
+        </div>
+      </div>
+    </div>
+    <section id="about">
+      <div class="about-wrapper">
+        <div class="profile">
+          <div class="profile-image">
+            <img src="/Assets/Paulkelvin.png" alt="Profile Image" />
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/paulkelvin/" target="_blank"
+                ><i class="fab fa-linkedin icon-linkedin fa-2x social-icon"></i
+              ></a>
+              <a href="https://twitter.com/Paulluskelvin_" target="_blank"
+                ><i class="fab fa-twitter icon-twitter fa-2x social-icon"></i
+              ></a>
+              <a href="https://github.com/Paulkelvin" target="_blank"
+                ><i class="fab fa-github icon-github fa-2x social-icon"></i
+              ></a>
+              <a href="https://medium.com/@paulkelvin" target="_blank"
+                ><i class="fab fa-medium icon-medium fa-2x social-icon"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="about-description">
+          <h2 class="section-title">ABOUT ME</h2>
+          <h2 class="intro">I am a professional software developer</h2>
+          <p class="details">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
+            fuga cumque laborum soluta excepturi explicabo harum quas delectus
+            adipisci quam libero hic iusto, illum vero dolorum sed deleniti.
+            Unde nostrum, sunt velit quod quisquam inventore ea suscipit libero
+            hic commodi aspernatur voluptatum illo!
+          </p>
+          <p class="details">
+            This link will import the regular and bold weights of both "Libre
+            Baskerville" and "Noto Sans". You can adjust the weights as
+            necessary.
+          </p>
+          <p class="education">
+            Education: Software Engineering <span>(Holberton School)</span
+            ><span class="graduate-year">2023</span>
+          </p>
+          <div class="actions">
+            <a href="" class="btn-projects" data-section="portfolio"
+              >See Projects <i class="fas fa-folder-open"></i>
+            </a>
+            <a href="" class="btn-resume"
+              >Download Resume <i class="fas fa-chevron-down"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services">
+      <h2>Services I specialize in</h2>
+      <div class="services-container">
+        <div class="service-item">
+          <!-- SVG for Font Awesome icon with gradient defined -->
+          <svg
+            class="icon"
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fas"
+            data-icon="code"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 640 512"
+          >
+            <defs>
+              <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop
+                  offset="0%"
+                  style="stop-color: #c0a080; stop-opacity: 1"
+                />
+                <stop
+                  offset="50%"
+                  style="stop-color: #fed766; stop-opacity: 1"
+                />
+                <stop
+                  offset="100%"
+                  style="stop-color: #e8e8e8; stop-opacity: 1"
+                />
+              </linearGradient>
+            </defs>
+            <path
+              fill="url(#gradient)"
+              d="M351.45 56.94l-6.15 6.15c-9.49 9.49-9.49 24.96 0 34.44L468.42 224 345.29 347.45c-9.49 9.49-9.49 24.96 0 34.44l6.15 6.15c9.49 9.49 24.96 9.49 34.44 0L541.88 256 385.89 100.06c-9.49-9.49-24.95-9.49-34.44 0zM253.29 360.91l6.15-6.15c9.49-9.49 9.49-24.96 0-34.44L171.59 288l123.85-123.85c9.49-9.49 9.49-24.96 0-34.44l-6.15-6.15c-9.49-9.49-24.95-9.49-34.44 0L98.12 256l156.89 156.94c9.48 9.49 24.95 9.49 34.44-.03z"
+            ></path>
+          </svg>
+          <h3>Custom Web Development</h3>
+          <p>
+            From single-page applications to expansive web platforms, I deliver
+            tailored web solutions using the latest technologies to cater to
+            your specific needs.
+          </p>
+        </div>
+        <div class="service-item">
+          <!-- SVG for Font Awesome "mobile-alt" icon -->
+          <svg
+            class="icon"
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fas"
+            data-icon="mobile-alt"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 320 512"
+          >
+            <defs>
+              <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop
+                  offset="0%"
+                  style="stop-color: #c0a080; stop-opacity: 1"
+                />
+                <stop
+                  offset="50%"
+                  style="stop-color: #fed766; stop-opacity: 1"
+                />
+                <stop
+                  offset="100%"
+                  style="stop-color: #e8e8e8; stop-opacity: 1"
+                />
+              </linearGradient>
+            </defs>
+            <path
+              fill="url(#gradient)"
+              d="M48 0h224c26.51 0 48 21.49 48 48v416c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V48C0 21.49 21.49 0 48 0zm160 480c0 7.224 8.837 13 19.646 13C242.163 493 256 485.194 256 474.667V485c0 7.224-8.837 13-19.646 13C225.837 498 208 485.194 208 474.667V485c0 7.224-8.837 13-19.646 13C177.837 498 160 485.194 160 474.667V485c0 7.224-8.837 13-19.646 13C129.837 498 112 485.194 112 474.667V485c0 7.224-8.837 13-19.646 13C81.837 498 64 485.194 64 474.667V37.333C64 26.806 81.837 19 92.354 19 103.163 19 112 26.776 112 37.333V37.333C112 26.806 129.837 19 140.354 19 151.163 19 160 26.776 160 37.333V37.333C160 26.806 177.837 19 188.354 19 199.163 19 208 26.776 208 37.333V37.333C208 26.806 225.837 19 236.354 19 247.163 19 256 26.776 256 37.333v416C256 485.194 238.163 493 227.646 493 216.837 493 208 485.224 208 474.667V474.667C208 485.194 190.163 493 179.646 493 168.837 493 160 485.224 160 474.667V474.667C160 485.194 142.163 493 131.646 493 120.837 493 112 485.224 112 474.667V474.667C112 485.194 94.163 493 83.646 493 72.837 493 64 485.224 64 474.667V37.333C64 26.806 46.163 19 35.646 19 24.837 19 16 26.776 16 37.333v437.334C16 485.194-1.837 493-12.354 493-23.163 493-32 485.224-32 474.667v-10.666C-32 485.194-49.837 493-60.354 493-71.163 493-80 485.224-80 474.667v-10.666C-80 485.194-97.837 493-108.354 493-119.163 493-128 485.224-128 474.667V37.333C-128 26.806-110.163 19-99.646 19-88.837 19-80 26.776-80 37.333v10.666C-80 26.806-62.163 19-51.646 19-40.837 19-32 26.776-32 37.333v10.666C-32 26.806-14.163 19-3.646 19 7.163 19 16 26.776 16 37.333v437.334C16 485.194 33.837 493 44.354 493 55.163 493 64 485.224 64 474.667v-10.666C64 485.194 81.837 493 92.354 493 103.163 493 112 485.224 112 474.667V474.667C112 485.194 129.837 493 140.354 493 151.163 493 160 485.224 160 474.667V474.667C160 485.194 177.837 493 188.354 493 199.163 493 208 485.224 208 474.667V474.667C208 485.194 225.837 493 236.354 493 247.163 493 256 485.224 256 474.667v-10.666C256 485.194 273.837 493 284.354 493 295.163 493 304 485.224 304 474.667V37.333C304 26.806 286.163 19 275.646 19 264.837 19 256 26.776 256 37.333z"
+            ></path>
+          </svg>
+          <h3>Responsive Design</h3>
+          <p>
+            Ensuring a seamless user experience across all device sizes. I
+            design websites that look and function perfectly on desktops,
+            tablets, and mobiles.
+          </p>
+        </div>
+        <div class="service-item">
+          <!-- SVG for Font Awesome "mobile-alt" icon -->
+          <svg
+            class="icon"
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fas"
+            data-icon="mobile-alt"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 320 512"
+          >
+            <defs>
+              <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop
+                  offset="0%"
+                  style="stop-color: #c0a080; stop-opacity: 1"
+                />
+                <stop
+                  offset="50%"
+                  style="stop-color: #fed766; stop-opacity: 1"
+                />
+                <stop
+                  offset="100%"
+                  style="stop-color: #e8e8e8; stop-opacity: 1"
+                />
+              </linearGradient>
+            </defs>
+            <path
+              fill="url(#gradient)"
+              d="M48 0h224c26.51 0 48 21.49 48 48v416c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V48C0 21.49 21.49 0 48 0zm160 480c0 7.224 8.837 13 19.646 13C242.163 493 256 485.194 256 474.667V485c0 7.224-8.837 13-19.646 13C225.837 498 208 485.194 208 474.667V485c0 7.224-8.837 13-19.646 13C177.837 498 160 485.194 160 474.667V485c0 7.224-8.837 13-19.646 13C129.837 498 112 485.194 112 474.667V485c0 7.224-8.837 13-19.646 13C81.837 498 64 485.194 64 474.667V37.333C64 26.806 81.837 19 92.354 19 103.163 19 112 26.776 112 37.333V37.333C112 26.806 129.837 19 140.354 19 151.163 19 160 26.776 160 37.333V37.333C160 26.806 177.837 19 188.354 19 199.163 19 208 26.776 208 37.333V37.333C208 26.806 225.837 19 236.354 19 247.163 19 256 26.776 256 37.333v416C256 485.194 238.163 493 227.646 493 216.837 493 208 485.224 208 474.667V474.667C208 485.194 190.163 493 179.646 493 168.837 493 160 485.224 160 474.667V474.667C160 485.194 142.163 493 131.646 493 120.837 493 112 485.224 112 474.667V474.667C112 485.194 94.163 493 83.646 493 72.837 493 64 485.224 64 474.667V37.333C64 26.806 46.163 19 35.646 19 24.837 19 16 26.776 16 37.333v437.334C16 485.194-1.837 493-12.354 493-23.163 493-32 485.224-32 474.667v-10.666C-32 485.194-49.837 493-60.354 493-71.163 493-80 485.224-80 474.667v-10.666C-80 485.194-97.837 493-108.354 493-119.163 493-128 485.224-128 474.667V37.333C-128 26.806-110.163 19-99.646 19-88.837 19-80 26.776-80 37.333v10.666C-80 26.806-62.163 19-51.646 19-40.837 19-32 26.776-32 37.333v10.666C-32 26.806-14.163 19-3.646 19 7.163 19 16 26.776 16 37.333v437.334C16 485.194 33.837 493 44.354 493 55.163 493 64 485.224 64 474.667v-10.666C64 485.194 81.837 493 92.354 493 103.163 493 112 485.224 112 474.667V474.667C112 485.194 129.837 493 140.354 493 151.163 493 160 485.224 160 474.667V474.667C160 485.194 177.837 493 188.354 493 199.163 493 208 485.224 208 474.667V474.667C208 485.194 225.837 493 236.354 493 247.163 493 256 485.224 256 474.667v-10.666C256 485.194 273.837 493 284.354 493 295.163 493 304 485.224 304 474.667V37.333C304 26.806 286.163 19 275.646 19 264.837 19 256 26.776 256 37.333z"
+            ></path>
+          </svg>
+          <h3>Responsive Design</h3>
+          <p>
+            Ensuring a seamless user experience across all device sizes. I
+            design websites that look and function perfectly on desktops,
+            tablets, and mobiles.
+          </p>
+        </div>
+        <div class="service-item">
+          <!-- SVG for Font Awesome "mobile-alt" icon -->
+          <svg
+            class="icon"
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fas"
+            data-icon="mobile-alt"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 320 512"
+          >
+            <defs>
+              <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop
+                  offset="0%"
+                  style="stop-color: #c0a080; stop-opacity: 1"
+                />
+                <stop
+                  offset="50%"
+                  style="stop-color: #fed766; stop-opacity: 1"
+                />
+                <stop
+                  offset="100%"
+                  style="stop-color: #e8e8e8; stop-opacity: 1"
+                />
+              </linearGradient>
+            </defs>
+            <path
+              fill="url(#gradient)"
+              d="M48 0h224c26.51 0 48 21.49 48 48v416c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V48C0 21.49 21.49 0 48 0zm160 480c0 7.224 8.837 13 19.646 13C242.163 493 256 485.194 256 474.667V485c0 7.224-8.837 13-19.646 13C225.837 498 208 485.194 208 474.667V485c0 7.224-8.837 13-19.646 13C177.837 498 160 485.194 160 474.667V485c0 7.224-8.837 13-19.646 13C129.837 498 112 485.194 112 474.667V485c0 7.224-8.837 13-19.646 13C81.837 498 64 485.194 64 474.667V37.333C64 26.806 81.837 19 92.354 19 103.163 19 112 26.776 112 37.333V37.333C112 26.806 129.837 19 140.354 19 151.163 19 160 26.776 160 37.333V37.333C160 26.806 177.837 19 188.354 19 199.163 19 208 26.776 208 37.333V37.333C208 26.806 225.837 19 236.354 19 247.163 19 256 26.776 256 37.333v416C256 485.194 238.163 493 227.646 493 216.837 493 208 485.224 208 474.667V474.667C208 485.194 190.163 493 179.646 493 168.837 493 160 485.224 160 474.667V474.667C160 485.194 142.163 493 131.646 493 120.837 493 112 485.224 112 474.667V474.667C112 485.194 94.163 493 83.646 493 72.837 493 64 485.224 64 474.667V37.333C64 26.806 46.163 19 35.646 19 24.837 19 16 26.776 16 37.333v437.334C16 485.194-1.837 493-12.354 493-23.163 493-32 485.224-32 474.667v-10.666C-32 485.194-49.837 493-60.354 493-71.163 493-80 485.224-80 474.667v-10.666C-80 485.194-97.837 493-108.354 493-119.163 493-128 485.224-128 474.667V37.333C-128 26.806-110.163 19-99.646 19-88.837 19-80 26.776-80 37.333v10.666C-80 26.806-62.163 19-51.646 19-40.837 19-32 26.776-32 37.333v10.666C-32 26.806-14.163 19-3.646 19 7.163 19 16 26.776 16 37.333v437.334C16 485.194 33.837 493 44.354 493 55.163 493 64 485.224 64 474.667v-10.666C64 485.194 81.837 493 92.354 493 103.163 493 112 485.224 112 474.667V474.667C112 485.194 129.837 493 140.354 493 151.163 493 160 485.224 160 474.667V474.667C160 485.194 177.837 493 188.354 493 199.163 493 208 485.224 208 474.667V474.667C208 485.194 225.837 493 236.354 493 247.163 493 256 485.224 256 474.667v-10.666C256 485.194 273.837 493 284.354 493 295.163 493 304 485.224 304 474.667V37.333C304 26.806 286.163 19 275.646 19 264.837 19 256 26.776 256 37.333z"
+            ></path>
+          </svg>
+          <h3>Responsive Design</h3>
+          <p>
+            Ensuring a seamless user experience across all device sizes. I
+            design websites that look and function perfectly on desktops,
+            tablets, and mobiles.
+          </p>
+        </div>
+        <div class="service-item">
+          <!-- SVG for Font Awesome "mobile-alt" icon -->
+          <svg
+            class="icon"
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fas"
+            data-icon="mobile-alt"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 320 512"
+          >
+            <defs>
+              <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop
+                  offset="0%"
+                  style="stop-color: #c0a080; stop-opacity: 1"
+                />
+                <stop
+                  offset="50%"
+                  style="stop-color: #fed766; stop-opacity: 1"
+                />
+                <stop
+                  offset="100%"
+                  style="stop-color: #e8e8e8; stop-opacity: 1"
+                />
+              </linearGradient>
+            </defs>
+            <path
+              fill="url(#gradient)"
+              d="M48 0h224c26.51 0 48 21.49 48 48v416c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V48C0 21.49 21.49 0 48 0zm160 480c0 7.224 8.837 13 19.646 13C242.163 493 256 485.194 256 474.667V485c0 7.224-8.837 13-19.646 13C225.837 498 208 485.194 208 474.667V485c0 7.224-8.837 13-19.646 13C177.837 498 160 485.194 160 474.667V485c0 7.224-8.837 13-19.646 13C129.837 498 112 485.194 112 474.667V485c0 7.224-8.837 13-19.646 13C81.837 498 64 485.194 64 474.667V37.333C64 26.806 81.837 19 92.354 19 103.163 19 112 26.776 112 37.333V37.333C112 26.806 129.837 19 140.354 19 151.163 19 160 26.776 160 37.333V37.333C160 26.806 177.837 19 188.354 19 199.163 19 208 26.776 208 37.333V37.333C208 26.806 225.837 19 236.354 19 247.163 19 256 26.776 256 37.333v416C256 485.194 238.163 493 227.646 493 216.837 493 208 485.224 208 474.667V474.667C208 485.194 190.163 493 179.646 493 168.837 493 160 485.224 160 474.667V474.667C160 485.194 142.163 493 131.646 493 120.837 493 112 485.224 112 474.667V474.667C112 485.194 94.163 493 83.646 493 72.837 493 64 485.224 64 474.667V37.333C64 26.806 46.163 19 35.646 19 24.837 19 16 26.776 16 37.333v437.334C16 485.194-1.837 493-12.354 493-23.163 493-32 485.224-32 474.667v-10.666C-32 485.194-49.837 493-60.354 493-71.163 493-80 485.224-80 474.667v-10.666C-80 485.194-97.837 493-108.354 493-119.163 493-128 485.224-128 474.667V37.333C-128 26.806-110.163 19-99.646 19-88.837 19-80 26.776-80 37.333v10.666C-80 26.806-62.163 19-51.646 19-40.837 19-32 26.776-32 37.333v10.666C-32 26.806-14.163 19-3.646 19 7.163 19 16 26.776 16 37.333v437.334C16 485.194 33.837 493 44.354 493 55.163 493 64 485.224 64 474.667v-10.666C64 485.194 81.837 493 92.354 493 103.163 493 112 485.224 112 474.667V474.667C112 485.194 129.837 493 140.354 493 151.163 493 160 485.224 160 474.667V474.667C160 485.194 177.837 493 188.354 493 199.163 493 208 485.224 208 474.667V474.667C208 485.194 225.837 493 236.354 493 247.163 493 256 485.224 256 474.667v-10.666C256 485.194 273.837 493 284.354 493 295.163 493 304 485.224 304 474.667V37.333C304 26.806 286.163 19 275.646 19 264.837 19 256 26.776 256 37.333z"
+            ></path>
+          </svg>
+          <h3>Responsive Design</h3>
+          <p>
+            Ensuring a seamless user experience across all device sizes. I
+            design websites that look and function perfectly on desktops,
+            tablets, and mobiles.
+          </p>
+        </div>
+        <div class="service-item">
+          <!-- SVG for Font Awesome "cloud" icon with gradient defined -->
+          <svg
+            class="icon"
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fas"
+            data-icon="cloud"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 640 512"
+          >
+            <defs>
+              <linearGradient id="gradient3" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop
+                  offset="0%"
+                  style="stop-color: #c0a080; stop-opacity: 1"
+                />
+                <stop
+                  offset="50%"
+                  style="stop-color: #fed766; stop-opacity: 1"
+                />
+                <stop
+                  offset="100%"
+                  style="stop-color: #e8e8e8; stop-opacity: 1"
+                />
+              </linearGradient>
+            </defs>
+            <path
+              fill="url(#gradient3)"
+              d="M640 352c0 53-43 96-96 96H54c-29.8 0-54-24.8-54-55.1C0 345.1 11.7 322 26.5 310.3 9.7 293.6 0 269.5 0 243.8c0-57.3 47.9-104.1 106.8-103.5C73.2 79.3 49.2 38.3 49.9 0 50.7-39.8 89.4-74 130.8-64 188.7-49.6 234.9 41.9 280 87.9c48.9-46 91.1-137.4 149.2-127.8 41.5 6.8 80.2 40.9 81 80.7.8 38.3-23.1 79.3-57.8 93.6 58.9-.5 106.8 45.2 106.8 102.5.2 25.8-9.5 49.8-26.4 66.6 14.9 17.6 24.5 41.6 24.5 67z"
+            ></path>
+          </svg>
+          <h3>Cloud Solutions</h3>
+          <p>
+            Modernizing your business operations with cloud hosting, databases,
+            and serverless architectures. Enhancing scalability, reliability,
+            and speed.
+          </p>
+        </div>
+      </div>
+      <div class="technology-section">
+        <h2>Technologies</h2>
+        <div class="tech-icons">
+          <div class="tech-item"><i class="fab fa-html5"></i> HTML</div>
+          <div class="tech-item"><i class="fab fa-css3-alt"></i> CSS</div>
+          <div class="tech-item">
+            <i class="fab fa-bootstrap"></i> Bootstrap
+          </div>
+          <div class="tech-item"><i class="fab fa-tailwind"></i> Tailwind</div>
+          <div class="tech-item"><i class="fab fa-js"></i> JS</div>
+          <div class="tech-item"><i class="fab fa-react"></i> ReactJS</div>
+          <div class="tech-item">
+            <i class="fab fa-github"></i> Git & GitHub
+          </div>
+          <div class="tech-item"><i class="fas fa-search"></i> SEO</div>
+          <div class="tech-item">
+            <i class="fas fa-paint-brush"></i> Graphic Design
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio">
+      <h2>My Projects</h2>
+      <div class="project-cards">
+        <div class="project-card">
+          <img
+            src="https://via.placeholder.com/350x200"
+            alt="Fictional project image"
+          />
+          <h3>EcoVenture</h3>
+          <p class="content">
+            An innovative web platform that helps users make sustainable choices
+            for daily living.
+            <span class="more"
+              >It provides tips, tracks carbon footprints, and offers
+              eco-friendly product alternatives. Built using ReactJS and
+              integrated with a custom API for tracking user actions.</span
+            >
+            <span class="toggle-text">view more</span>
+          </p>
+          <a href="#" class="project-link"
+            >View Project<i class="fas fa-external-link-alt"></i>
+          </a>
+          <a href="#" class="github-link"
+            >View on GitHub<i class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+        <div class="project-card">
+          <img
+            src="https://via.placeholder.com/350x200"
+            alt="Fictional project image"
+          />
+          <h3>EcoVenture</h3>
+          <p class="content">
+            An innovative web platform that helps users make sustainable choices
+            for daily living.
+            <span class="more"
+              >It provides tips, tracks carbon footprints, and offers
+              eco-friendly product alternatives. Built using ReactJS and
+              integrated with a custom API for tracking user actions.</span
+            ><span class="toggle-text"> view more</span>
+          </p>
+          <a href="#" class="project-link"
+            >View Project<i class="fas fa-external-link-alt"></i
+          ></a>
+          <a href="#" class="github-link"
+            >View on GitHub<i class="fas fa-external-link-alt"></i
+          ></a>
+        </div>
+        <div class="project-card">
+          <img
+            src="https://via.placeholder.com/350x200"
+            alt="Fictional project image"
+          />
+          <h3>EcoVenture</h3>
+          <p class="content">
+            An innovative web platform that helps users make sustainable choices
+            for daily living
+            <span class="more">
+              It provides tips, tracks carbon footprints, and offers
+              eco-friendly product alternatives. Built using ReactJS and
+              integrated with a custom API for tracking user actions.
+            </span>
+            <span class="toggle-text">view more</span>
+          </p>
+
+          <a href="#" class="github-link"
+            >View on GitHub<i class="fas fa-external-link-alt"></i
+          ></a>
+          <a href="#" class="project-link"
+            >View Project<i class="fas fa-external-link-alt"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <!-- <section id="testimonials">Testimonials Content</section> -->
+    <section id="contact">
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <h2>Get in Touch</h2>
+          <p>
+            Have <span class="colored">questions</span> or a
+            <span class="colored">project? </span> Drop me a message!
+          </p>
+          <div>
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:ibukunadesanya0@gmail.com"
+              >ibukunadesanya0@gmail.com</a
+            >
+          </div>
+          <div>
+            <i class="fas fa-phone"></i>
+            <a href="tel:+1234567890">+2348169826503</a>
+          </div>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/paulkelvin/" target="_blank">
+              <i class="fab fa-linkedin icon-linkedin fa-2x social-icon"></i>
+            </a>
+            <a href="https://twitter.com/Paulluskelvin_" target="_blank">
+              <i class="fab fa-twitter icon-twitter fa-2x social-icon"></i>
+            </a>
+            <a href="https://github.com/Paulkelvin" target="_blank">
+              <i class="fab fa-github icon-github fa-2x social-icon"></i>
+            </a>
+            <a href="https://medium.com/@paulkelvin" target="_blank">
+              <i class="fab fa-medium icon-medium fa-2x social-icon"></i>
+            </a>
+            <a href="https://wa.me/yourwhatsappnumber" target="_blank">
+              <i class="fab fa-whatsapp icon-whatsapp fa-2x social-icon"></i>
+            </a>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form action="/submit" method="post">
+            <div class="form-group inline-group">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Name"
+                required
+              />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    -->
+    <script src="script.js"></script>
+  </body>
+</html>
